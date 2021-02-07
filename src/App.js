@@ -1,5 +1,6 @@
 import MainNav from "./components/MainNav";
 import SectionHero from "./components/SectionHero/SectionHero";
+import SectionLogos from "./components/SectionLogos/SectionLogos";
 import './custom.scss';
 import './global.scss';
 
@@ -8,6 +9,7 @@ const App = () => {
     <div className="App">
       <MainNav/>
       <SectionHero/>
+      <SectionLogos/>
     </div>
   );
 }
