@@ -1,6 +1,7 @@
 import MainNav from "./components/MainNav";
 import SectionHero from "./components/SectionHero/SectionHero";
 import SectionLogos from "./components/SectionLogos/SectionLogos";
+import KeyFeatures from "./components/KeyFeatures/KeyFeatures";
 import './custom.scss';
 import './global.scss';
 
@@ -10,6 +11,7 @@ const App = () => {
       <MainNav/>
       <SectionHero/>
       <SectionLogos/>
+      <KeyFeatures/>
     </div>
   );
 }
