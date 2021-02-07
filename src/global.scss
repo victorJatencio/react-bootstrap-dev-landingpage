@@ -3,6 +3,7 @@ $font-family: 'Nunito', sans-serif;
 $navigation: #3c4858;
 $primary: #2f55d4;
 $text: #8492a6;
+$hover: #2443ac;
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Nunito:wght@300;400;600;700&display=swap');
 
@@ -42,6 +43,35 @@ body {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.dropdown a.dropdown-toggle:hover {
+  border-color: $navigation;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.5em;
+    vertical-align: 0.255em;
+    content: "";
+    // background-color: rgb(197, 197, 197);
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-color: $navigation;
+    transform: rotate(45deg);
+}
+
+.custom-dropdown a.dr-link {
+  font-size: 11px;
+
+  &:hover {
+    background-color: #fff;
+    color: $primary;
+  }
 }
 
 .nav-utils {

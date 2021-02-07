@@ -5,11 +5,9 @@ import Col from 'react-bootstrap/Col';
 import { Navbar, NavbarBrand, NavDropdown, NavLink } from 'react-bootstrap';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
 import { DiGithubBadge, DiStackoverflow } from "react-icons/di";
 import { HiOutlineUser } from "react-icons/hi";
-import { FiChevronDown, FiSearch } from "react-icons/fi";
+import { FiSearch } from "react-icons/fi";
 
 import logo from '../images/logo-dark.png';
 
@@ -29,12 +27,12 @@ const MainNav = () => {
                 <NavbarCollapse id="basic-navbar-nav">
                     <NavLink href="#home">Home</NavLink>
                     <NavLink href="#landing">Landing</NavLink>
-                    <NavDropdown title="Pages" id="basic-nav-dropdown">
-                      <NavDropdown.Item href="#">Action</NavDropdown.Item>
-                      <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-                      <NavDropdown.Item href="#">Something</NavDropdown.Item>
+                    <NavDropdown title="Pages" id="basic-nav-dropdown" className="custom-dropdown">
+                      <NavDropdown.Item href="#" className="dr-link">Action</NavDropdown.Item>
+                      <NavDropdown.Item href="#" className="dr-link">Another action</NavDropdown.Item>
+                      <NavDropdown.Item href="#" className="dr-link">Something</NavDropdown.Item>
                       <NavDropdown.Divider />
-                      <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
+                      <NavDropdown.Item href="#" className="dr-link">Separated link</NavDropdown.Item>
                     </NavDropdown>
                     <NavLink href="#docs">Docs</NavLink>
                     
