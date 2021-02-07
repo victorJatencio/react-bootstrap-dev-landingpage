@@ -1,0 +1,20 @@
+// overrite theme variables
+
+// colors
+$primary: #2f55d4;
+$secondary: green;
+$dark: #161c2d;
+$light: #adb5bd;
+$success: #0fa;
+$info: #555;
+$warning: orange;
+$danger: red;
+
+$hover: #2443ac;
+$navigation: #3c4858;
+$link: #284bc1;
+$text: #8492a6;
+$backgroundDark: #202942;
+
+// import bootstrap styles at the bottom!
+@import "~bootstrap/scss/bootstrap";
