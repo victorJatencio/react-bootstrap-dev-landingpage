@@ -1,0 +1,45 @@
+$primary: #2f55d4;
+
+.build-tools {
+  margin-top: 100px;
+}
+
+h2 {
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+p {
+  color: #8492a6;
+}
+
+ul li {
+  color: #8492a6;
+}
+
+.filled__button {
+  box-shadow: rgba(47, 85, 212, 0.3) 0px 3px 5px 0px;
+}
+
+.btn__link {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  max-width: 150px;
+}
+
+.ico__arrow {
+  margin-left: 5px;
+}
+
+.list-unstyled li {
+  display: flex;
+  align-items: center;
+
+  .icon__check {
+    color: $primary;
+    margin-right: 5px;
+  }
+}
